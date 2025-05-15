@@ -1,9 +1,12 @@
 import Counter from "./components/Counter";
-
+import EnableDisableInput from "./components/EnableDisableInput";
+import MapDemo from "./components/MapDemo";
 export default function App() {
   return (
     <>
-      <Counter />
+      {/* <Counter /> */}
+      {/* <EnableDisableInput /> */}
+      <MapDemo />
     </>
   )
 }
